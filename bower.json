@@ -1,0 +1,10 @@
+{
+  "name": "gulp-protractor-sample",
+  "version": "0.0.0",
+  "homepage": "https://github.com/yuyaohshimo/gulp-protractor-sample",
+  "authors": [
+    "yuyaohshimo <yohshimo@coiney.com>"
+  ],
+  "description": "Sample project for gulp and protractor",
+  "license": "MIT"
+}

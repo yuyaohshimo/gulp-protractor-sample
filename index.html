@@ -1,0 +1,20 @@
+<html>
+  <meta charset="utf-8">
+  <head>
+    <script type="text/javascript" src="./bower_components/angular/angular.js"></script>
+  </head>
+  <body ng-app="myApp" ng-controller="sampleController">
+    <div>
+      <p>I am <span class="me">{{myName}}</span>.</p>
+      <p>You are <span class="you">{{yourName}}</span>.</p>
+    </div>
+    <script type="text/javascript">
+      angular
+      .module('myApp', [])
+      .controller('sampleController', function($scope) {
+        $scope.myName = 'John';
+        $scope.yourName = 'Aki';
+      });
+    </script>
+  </body>
+</html>
