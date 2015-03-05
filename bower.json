@@ -6,5 +6,8 @@
     "yuyaohshimo <yohshimo@coiney.com>"
   ],
   "description": "Sample project for gulp and protractor",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.3.14"
+  }
 }
