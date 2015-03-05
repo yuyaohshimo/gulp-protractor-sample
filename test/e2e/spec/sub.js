@@ -1,4 +1,4 @@
-describe('gulp-protractor-sample main', function() {
+describe('gulp-protractor-sample sub', function() {
 
   beforeEach(function() {
     browser.get(browser.baseUrl);
